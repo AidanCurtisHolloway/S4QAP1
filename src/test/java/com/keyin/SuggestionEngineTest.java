@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class SuggestionEngineTest {
 
-    private SuggestionEngine suggestionEngine = new SuggestionEngine();
+    private final SuggestionEngine suggestionEngine = new SuggestionEngine();
 
     @Test
     public void testGenerateSuggestions() throws Exception {
